@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    font-family: sans-serif;
+    background: rgb(74,32,188);
+    background: linear-gradient(90deg, rgba(74,32,188,1) 0%, rgba(187,166,249,1) 100%, rgba(252,176,69,1) 100%);
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.16);
+    width:40%;
+    height: 500px;
+    background: rgba(255,255,255,0.9);
+    padding:20px;
+    margin: 0px 0px;
+    border-radius: 3px;
+}
+#result{
+    border:1px solid #333;
+    padding: 40px 50px;
+    height: 300px;
+    width:90%;
+    margin-bottom: 30px;
+    background-color:azure;
+    border-radius: 3px;
+    overflow: auto;
+
+}
+.button-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+button{
+    font-size:20px;
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+    background-color: indigo;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;  
+}
+button:hover{
+    background-color: darkblue;
+}
+.previous-button {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: 700; /* Use bold weight */
+    font-size: 16px; /* Adjust font size as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Example background color */
+    color: #ffffff; /* Example text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
